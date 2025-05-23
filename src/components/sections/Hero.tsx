@@ -138,9 +138,9 @@ export default function Hero() {
                   <div className="absolute inset-0 bg-gradient-to-br from-primary to-blue-600 rounded-full p-1">
                     <div className="w-full h-full bg-background rounded-full p-4">
                       <div className="relative w-full h-full rounded-full overflow-hidden bg-gradient-to-br from-secondary to-muted">
-                        {/* Replace with your actual photo */}
+                        {/* Profile image */}
                         <Image
-                          src="/images/profile.jpg" // Add your photo here
+                          src={personalInfo.avatar} // Ensure this is a valid image URL
                           alt={personalInfo.name}
                           fill
                           className="object-cover"
@@ -172,7 +172,18 @@ export default function Hero() {
           <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
             <div className="flex flex-col items-center space-y-2">
               <span className="text-sm text-muted-foreground">Scroll down</span>
-              <div className="w-0.5 h-8 bg-primary rounded-full"></div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                className="size-5 text-primary"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M10 3a.75.75 0 0 1 .75.75v10.638l3.96-4.158a.75.75 0 1 1 1.08 1.04l-5.25 5.5a.75.75 0 0 1-1.08 0l-5.25-5.5a.75.75 0 1 1 1.08-1.04l3.96 4.158V3.75A.75.75 0 0 1 10 3Z"
+                  clipRule="evenodd"
+                />
+              </svg>
             </div>
           </div>
         </div>

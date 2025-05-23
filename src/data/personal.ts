@@ -19,14 +19,14 @@ export const education: Education[] = [
     id: "masters",
     institution: "Bina Nusantara University",
     degree: "Master Degree in Computer Science",
-    duration: "February 2023 – January 2025",
+    duration: "January 2023 – January 2025",
     gpa: "3.67/4.00",
   },
   {
     id: "bachelor",
     institution: "Bina Nusantara University",
     degree: "Bachelor Degree in Computer Science",
-    duration: "September 2018 – September 2022",
+    duration: "September 2018 – January 2023",
     gpa: "3.30/4.00",
   },
 ];
