@@ -81,12 +81,15 @@ export default function Header() {
     >
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         {/* Logo - Updated to use Image */}
+        {/* Logo dengan ukuran yang disesuaikan */}
         <a href="#home" className="flex items-center">
           <Image
             src={personalInfo.personalLogo}
             alt={`${personalInfo.name}'s logo`}
-            width={150}
-            height={150}
+            width={100}
+            height={80}
+            className="h-max w-max"
+            priority
           />
         </a>
 
