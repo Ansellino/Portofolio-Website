@@ -140,21 +140,13 @@ export default function Hero() {
                       <div className="relative w-full h-full rounded-full overflow-hidden bg-gradient-to-br from-secondary to-muted">
                         {/* Profile image */}
                         <Image
-                          src={personalInfo.avatar} // Ensure this is a valid image URL
+                          src={personalInfo.avatar}
                           alt={personalInfo.name}
                           fill
                           className="object-cover"
                           priority
-                          placeholder="blur"
-                          blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k="
+                          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                         />
-
-                        {/* Fallback if no image */}
-                        <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-primary/10 to-blue-600/10">
-                          <div className="text-6xl font-bold text-primary">
-                            {personalInfo.name.charAt(0)}
-                          </div>
-                        </div>
                       </div>
                     </div>
                   </div>

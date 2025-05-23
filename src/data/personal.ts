@@ -9,7 +9,7 @@ export const personalInfo: PersonalInfo = {
   linkedin: "https://www.linkedin.com/in/jeremy-ansellino-gunawan/",
   description:
     "Motivated and detail-oriented IT graduate with a Master's degree, dedicated to continuous learning and professional growth. Skilled in technical problem-solving, teamwork, and thriving in fast-paced environments.",
-  avatar: "/images/profile.png",
+  avatar: "/images/avatar.jpg",
   resumeUrl: "resume/Jeremy_CV.pdf",
   personalLogo: "/images/logo.png",
 };
