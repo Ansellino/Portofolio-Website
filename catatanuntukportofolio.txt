@@ -1,0 +1,22 @@
+catatan:
+- sertifikat dan achievement itu sebaiknya pada posisi on hover sebaiknya berubah menjadi hand
+- Tombol GitHub dan view detail belum
+- Bagian featured project, tombol view code hilangkan, view detail langsung ke website
+- Tombol view all project masih kosong belum berfungsi
+- Untuk di location, gunakan longtitude dan latitude agar Ketika di klik langsung ke map
+- tombol back to top buat relative ( bikin ngambang 1 halaman )
+
+Untuk tampilan mobile:
+- animasi scroll down saling timpa, sebaiknya di hilangkan tau di benerin
+- Linenya hilangkan, pakai tailwind gunakan medium kebawah lineya hidden
+
+PR : 
+- Buatkan Admin Panel untuk beberapa poin agar dinamis
+- Certification gak masalah di tampilin, tapi filenya gak perlu di show
+- Dark Mode / Light Mode belum berfungsi
+- Buat fungsi di logo, on click reload window 
+- SEO belum di atur
+- Bagian Layout
+
+Buat di Global CSS :
+DARK MODE, LIGHT MODE
